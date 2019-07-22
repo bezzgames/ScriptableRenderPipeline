@@ -12,7 +12,7 @@ You can use Multi-pass or Single-pass instancing for VR in HDRP.
 
 #### Not supported
 
-- Single Pass (double-wide)
+- Single-pass Stereo (double-wide)
 
 ### Unity 2019.2
 
