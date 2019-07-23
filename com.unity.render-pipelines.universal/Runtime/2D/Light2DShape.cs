@@ -41,9 +41,12 @@ namespace UnityEngine.Experimental.Rendering.Universal
         BoundingSphere GetShapeLightBoundingSphere()
         {
             BoundingSphere boundingSphere;
-
-            Vector3 maximum = transform.TransformPoint(m_LocalBounds.max);
-            Vector3 minimum = transform.TransformPoint(m_LocalBounds.min);
+            
+            Vector3 maxBound = Vector3.Max(m_LocalBounds.max, m_LocalBounds.max + (Vector3)m_ShapeLightFalloffOffset);
+            Vector3 minBound = Vector3.Min(m_LocalBounds.min, m_LocalBounds.min + (Vector3)m_ShapeLightFalloffOffset);
+            
+            Vector3 maximum = transform.TransformPoint(maxBound);
+            Vector3 minimum = transform.TransformPoint(minBound);
             Vector3 center = 0.5f * (maximum + minimum);
             float radius = Vector3.Magnitude(maximum - center);
 
