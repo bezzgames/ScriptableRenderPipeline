@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Fixed shader compilation errors for Android XR projects.
 - Updated the pipeline Asset UI to cap the render scale at 2x so that it matches the render pipeline implementation limit.
+- Fixed post-processing being enabled in the previews.
+- Fixed post-processing being force-enabled if a camera didn't have additional data attached to it.
+
+### Changed
+- Changed the way platform checks are made to give more helpful feedback about supported features in the inspectors.
 
 ## [7.0.0] - 2019-07-10
 ### Universal Render Pipeline
