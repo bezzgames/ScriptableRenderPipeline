@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 840c9c8af97fb4808bca288a187dd179,
+  m_LightingDataAsset: {fileID: 112000004, guid: 840c9c8af97fb4808bca288a187dd179,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -299,6 +299,34 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815368547, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -2.9701613e+19
+      objectReference: {fileID: 0}
+    - target: {fileID: 815368547, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -4.947129e+36
+      objectReference: {fileID: 0}
+    - target: {fileID: 815368547, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.4710583e+9
+      objectReference: {fileID: 0}
+    - target: {fileID: 815368547, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 8.1614976e+9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033529793, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 9.3719e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033529793, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033529793, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 8.1549e-41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c0989def095c48009482fe0f881f6b7, type: 3}
